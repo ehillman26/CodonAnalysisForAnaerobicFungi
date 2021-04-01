@@ -68,11 +68,11 @@ def read_file(filename):
     return sequences
 
 
-AGF = read_file('Piromy1_GeneModels_FilteredModels2_cds.fasta')
+genome = read_file('Piromy1_GeneModels_FilteredModels2_cds.fasta')
 #if file and code are not in the same location, include full file path
 #Files for P. indianae genome can be found on Mycocosm (https://genome.jgi.doe.gov/portal/Piromy1/download/Piromy1_GeneCatalog_CDS_20200129.fasta.gz)
 
-seqs = [AGF]
+seqs = [genome]
 codon_count = CodonsDict
 CDS_count = 0
 #print (seqs)

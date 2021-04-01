@@ -4,5 +4,6 @@ Here, it was used for P. indianae and then formatted to match the codon tables d
 Input files must be in fasta format. This code was developed with/for python 3.7.
 
 Files for the P. indianae genome can be found on Mycocosm (https://genome.jgi.doe.gov/portal/Piromy1/download/Piromy1_GeneCatalog_CDS_20200129.fasta.gz)
+
 Input file:
 genome = read_file('Piromy1_GeneModels_FilteredModels2_cds.fasta')

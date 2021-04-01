@@ -9,7 +9,8 @@ In the code, the files partaining to the CDS and HEG need to be replaced (along 
 Code written for python 3.6 or later
 Code variable:
 fasta_file = file containin all CDS for the host or source genes (E. coli or P. indianae) 
-- For this analysis, this was either 'E_coli_CDS.txt'  OR  'Piromy1_GeneModels_FilteredModels2_cds.fasta'
+- For this analysis, this was either 'E_coli_CDS.txt'  OR  'Piromy1_GeneModels_FilteredModels2_cds.fasta' 
+- Files for P. indianae genome can be found on Mycocosm (https://genome.jgi.doe.gov/portal/Piromy1/download/Piromy1_GeneCatalog_CDS_20200129.fasta.gz)
 
 ref_seqs = file containing high expressing genes sequences for heterologous expression host (E. coli in this case)
 - For this analysis, this was 'e_coli-HEG.fasta'

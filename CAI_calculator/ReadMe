@@ -1,0 +1,16 @@
+This folder contains the code and file for calculating the genomic codon adaptaion index (CAI) scores for E. coli and anaerobic fungus Piromyces indianae
+
+This code was adapted for whole genome analysis using the from CodonAdaptationIndex code by Benjamine Lee (https://github.com/Benjamin-Lee/CodonAdaptationIndex)
+
+This code takes all CDS for a genome/organism of interest and uses the high expressing genes (HEG) for the heterologous expression host to cacluate the CAI score for each gene in the genome
+
+In the code, the files partaining to the CDS and HEG need to be replaced (along with accurate file locations) for the organism(s) of interest. Files much be in fasta format.
+
+Code written for python 3.6 or later
+Code variable:
+fasta_file = file containin all CDS for the host or source genes (E. coli or P. indianae) 
+- For this analysis, this was either 'E_coli_CDS.txt'  OR  'Piromy1_GeneModels_FilteredModels2_cds.fasta'
+
+ref_seqs = file containing high expressing genes sequences for heterologous expression host (E. coli in this case)
+- For this analysis, this was 'e_coli-HEG.fasta'
+

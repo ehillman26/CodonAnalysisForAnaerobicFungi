@@ -1,2 +1,6 @@
 This code can be used to generate codon usage percentages for a genome of interest from the all CDS in a genome. 
 Here, it was used for P. indianae and then formatted to match the codon tables depsoited on kazusa.or.jp
+
+Input files must be in fasta format. This code was developed with/for python 3.7.
+
+Files for the P. indianae genome can be found on Mycocosm (https://genome.jgi.doe.gov/portal/Piromy1/download/Piromy1_GeneCatalog_CDS_20200129.fasta.gz)

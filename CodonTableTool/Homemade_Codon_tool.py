@@ -67,17 +67,9 @@ def read_file(filename):
         sequences.append((descr, seq))                  # easy to forget!; this add the third sequence
     return sequences
 
-#iLOV = read_file('CreiLOV.fasta')
-#Flav = read_file('PpFbFP.fasta')
-#print (iLOV[0][1])     #change the dna_sequnce to [0][1] below
-#KanR = read_file('KanR.fasta')
 
-#Neo = read_file('Neosp1_GeneCatalog_CDS_20170918.fasta')
-#Finn = read_file('Pirfi3_GeneCatalog_CDS_20160330.fasta')
-#E2 = read_file('PirE2_1_GeneCatalog_CDS_20110421.fasta')
-#Ana = read_file('Anasp1_GeneCatalog_CDS_20160330.fasta')
-#Orp = read_file('Orpsp1_1_GeneCatalog_CDS_20140826.fasta')
-AGF = read_file('AGF_highestCDS_fasta.txt')
+AGF = read_file('Piromy1_GeneModels_FilteredModels2_cds.fasta')
+#Files for P. indianae genome can be found on Mycocosm (https://genome.jgi.doe.gov/portal/Piromy1/download/Piromy1_GeneCatalog_CDS_20200129.fasta.gz)
 
 seqs = [AGF]
 codon_count = CodonsDict
